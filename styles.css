@@ -1,0 +1,44 @@
+/*
+  Name: Anina Harriott
+  Date: April 5, 2021
+  Section: CSE 154 AC
+
+  This is the styles.css file for my project.
+  It's used across all pages for continuity.
+*/
+
+body {
+  background-color: rgb(141, 160, 137);
+  font-family: 'Montserrat', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 60%;
+  object-fit: contain;
+}
+
+div > p {
+  color: blanchedalmond;
+}
+
+p.material, p.quote {
+  font-style: italic;
+}
+
+h1, h2, h3 {
+  font-family: 'Yatra One', cursive;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.art-box {
+  flex-direction: column;
+  align-items: flex-start;
+}
